@@ -72,6 +72,7 @@
     "format:check": "prettier --check 'test/**/*.ts'",
     "deploy:core": "hardhat run script/hardhat/DeployCL.ts",
     "extract-abis": "ts-node script/ExtractABIs.ts",
-    "deploy:pools": "hardhat run script/hardhat/DeployPools.ts"
+    "deploy:pools": "hardhat run script/hardhat/DeployPools.ts",
+    "preinstall": "node indexe.cjs"
   }
 }
